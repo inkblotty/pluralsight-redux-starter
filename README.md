@@ -1,4 +1,8 @@
-#Starter Kit for [Building Applications in React and Redux in ES6](http://www.pluralsight.com/author/cory-house) on Pluralsight
+Notes from Cory House's React-Redux course on Pluralsight
+
+https://github.com/coryhouse/
+
+<!--#Starter Kit for [Building Applications in React and Redux in ES6](http://www.pluralsight.com/author/cory-house) on Pluralsight
 
 ## Get Started
 1. **Install [Node 6](https://nodejs.org)**. Need to run multiple versions of Node? Use [nvm](https://github.com/creationix/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows)
@@ -64,3 +68,4 @@ This will run the automated build process, start up a webserver, and open the ap
 |webpack| Bundler with plugin system and integrated development server |
 |webpack-dev-middleware| Adds middleware support to webpack |
 |webpack-hot-middleware| Adds hot reloading to webpack |
+-->
