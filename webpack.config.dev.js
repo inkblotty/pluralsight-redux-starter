@@ -1,6 +1,16 @@
 import webpack from 'webpack';
 import path from 'path';
 
+/* config for development bundle */
+
+/*
+  - noInfo: false ---> makes sure the files being bundled are written out
+  - entry -> eventsource-polyfill only needed for IE
+  - target can also be 'node', but we're using it for 'web'
+  - output generates a bundle in memory instead of writing an actual file (that's for the 'build' config)
+  - module -> loaders tells us the types of files to handle
+*/
+
 export default {
   debug: true,
   devtool: 'cheap-module-eval-source-map',
